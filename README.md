@@ -1,0 +1,1 @@
+Quick learning of rust
