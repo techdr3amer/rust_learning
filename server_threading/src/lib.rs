@@ -48,7 +48,7 @@ impl Worker {
     }
 }
 
-// This shit is wild, kinda sick that today 30.5.2023 I now how to read this
+// This shit is wild, kinda sick that today 30.5.2023 I know how to read this
 // For me after that day: Smart pointer to Fn that implements Send trait and has static lifetime
 type Job = Box<dyn FnOnce() + Send + 'static>;
 
